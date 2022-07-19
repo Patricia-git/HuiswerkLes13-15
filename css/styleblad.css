@@ -1,0 +1,152 @@
+body {
+    font: normal 0.8em sans-serif;
+    color: #344141;
+    background-color: #fff;
+	line-height: 1.5em;
+	width: 900px;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+.topleft {
+    float: left;
+    margin: 12px 0 10px 50px;
+    padding: 5px;
+}
+.topright {
+    float: right;
+    margin: 15px 60px 0 0;
+    padding: 5px;
+}
+
+hr {
+    color: #f4b183;
+    background-color: #f4b183;
+    border-style: none;
+    height: 7px;
+}
+
+/* Navigatie */
+.navigatie {
+	background-color: #0e757a;
+	height: 20px;
+	vertical-align: middle;
+	padding: 15px;
+	text-align: center;	
+	}
+.navigatie a {
+	text-decoration: none;	
+	color: #FFF;
+	font-size: 1.4em;
+	padding: 7px 50px;
+    margin: 0 35px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+	}
+.navigatie a:hover {
+    background-color: #f4b183;	
+    border: 2px solid #666;
+    border-radius: 20px;
+	}
+
+/* Inhoud */ 
+div {
+    display: block;
+}
+.inhoud {
+    min-height: 210px;
+    font-size: larger;
+    padding-top: 5px;
+    background-color: #f1f1f1;
+}
+.tekst-inhoud {
+    padding: 0 0 3px 30px;
+        
+}
+.tekst-inhoud a {
+    text-decoration: none;	
+    color: #000;		
+}
+.tekst-inhoud a:hover {
+    color: #0e757a;
+}   
+.mijnfoto {
+    float: right;
+    padding: 5px 30px 0 0;
+}
+
+/* Mijn CV pagina */
+.cvtabel {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: larger;
+    line-height: 2em;
+    padding: 30px;    
+}
+.tabel1 {
+    width: 100px; 
+    color: #ed975c;   
+}
+.tabel2 {
+    width: 250px;
+    text-align: left;
+}
+th img {
+    width: 100%;
+    height: auto;
+    padding-top: 7px;
+}
+
+/* De contactpagina */
+.contact {
+    width: 80%;
+    min-width: 600px;
+    border: 3px solid #627172;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 5px 10px 15px 10px;
+    margin: 15px auto 10px auto;
+}
+.contactkop {
+    line-height: 0.9em;
+    color: #fff;
+    background-color: #ed975c;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+.contacttabel {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.tabel3 {
+    width: 150px;
+    text-align: right;
+}
+.tabel4 {
+    width: 250px;
+}
+.tabel5 {
+    width: 200px;
+}
+
+/* Voet */
+footer {
+    background-color: #0e757a;
+    font-size: 1em;
+    color: #FFF;
+	height: 20px;
+	vertical-align: middle;
+	padding: 15px;  
+}
+.left {
+    float: left;
+    padding: 0 0 5px 20px;		
+}
+.right {
+    float: right;
+    padding: 0 20px 5px 0;		
+} 	
